@@ -690,6 +690,11 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+    .home {
+        background-size: cover;
+        background: url("images/banner-2.jpg") no-repeat center;
+        background-attachment: fixed;
+    }
 }
 
 @media (max-width: 500px) {
