@@ -163,7 +163,7 @@ section .title::after{
 
 
 /* home section styling */
-.home{
+.home {
     display: flex;
     background: url("images/banner-1.jpg") no-repeat center;
     height: 100vh;
