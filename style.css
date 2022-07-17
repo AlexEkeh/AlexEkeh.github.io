@@ -1,7 +1,7 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -86,27 +86,33 @@ section .title::after{
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
+
 .navbar.sticky{
     padding: 15px 0;
     background: blue;
 }
+
 .navbar .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar .logo a{
     color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
+
 .navbar .logo a span{
     color: blue;
     transition: all 0.3s ease;
 }
+
 .navbar.sticky .logo a span{
     color: #fff;
 }
+
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -177,25 +183,31 @@ section .title::after{
   width: 100%;
   display: flex;
 }
+
 .home .max-width .row{
   margin-right: 0;
 }
+
 .home .home-content .text-1{
     font-size: 27px;
 }
+
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
+
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
 }
+
 .home .home-content .text-3 span{
     color: blue;
     font-weight: 500;
 }
+
 .home .home-content a{
     display: inline-block;
     background: blue;
@@ -208,6 +220,7 @@ section .title::after{
     border: 2px solid blue;
     transition: all 0.3s ease;
 }
+
 .home .home-content a:hover{
     color: blue;
     background: none;
@@ -217,9 +230,11 @@ section .title::after{
 .about .title::after{
     content: "who i am";
 }
+
 .about .about-content .left{
     width: 45%;
 }
+
 .about .about-content .left img{
     height: 400px;
     width: 400px;
@@ -230,17 +245,21 @@ section .title::after{
 .about .about-content .right{
     width: 55%;
 }
+
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .about .about-content .right .text span{
     color: blue;
 }
+
 .about .about-content .right p{
     text-align: justify;
 }
+
 .about .about-content .right a{
     display: inline-block;
     background: blue;
@@ -253,6 +272,7 @@ section .title::after{
     border: 2px solid blue;
     transition: all 0.3s ease;
 }
+
 .about .about-content .right a:hover{
     color: blue;
     background: none;
@@ -263,15 +283,18 @@ section .title::after{
     color:#fff;
     background: #111;
 }
+
 .services .title::before,
 .teams .title::before{
     background: #fff;
 }
+
 .services .title::after,
 .teams .title::after{
     background: #111;
     content: "what i provide";
 }
+
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -281,6 +304,7 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 .services .serv-content .card:hover{
     background: blue;
 }
@@ -312,17 +336,21 @@ section .title::after{
 .skills .title::after{
     content: "What i know";
 }
+
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
+
 .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .skills .skills-content .left p{
     text-align: justify;
 }
+
 .skills .skills-content .left a{
     display: inline-block;
     background: blue;
@@ -335,29 +363,35 @@ section .title::after{
     border: 2px solid blue;
     transition: all 0.3s ease;
 }
+
 .skills .skills-content .left a:hover{
     color: blue;
     background: none;
 }
+
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
+
 .skills .skills-content .right .info{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
+
 .skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
 }
+
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
+
 .skills .skills-content .right .line::before{
     content: "";
     position: absolute;
@@ -366,21 +400,27 @@ section .title::after{
     top: 0;
     background: blue;
 }
+
 .skills-content .right .react::before{
     width: 90%;
 }
+
 .skills-content .right .write-up::before{
     width: 90%;
 }
+
 .skills-content .right .mkt::before{
     width: 85%;
 }
+
 .skills-content .right .webdev::before{
     width: 95%;
 }
+
 .skills-content .right .qa::before{
     width: 90%;
 }
+
 .skills-content .right .sql::before{
     width: 80%;
 }
@@ -389,6 +429,7 @@ section .title::after{
 .teams .title::after{
     content: "Who with me";
 }
+
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -397,9 +438,11 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
+
 .teams .carousel .card:hover{
     background: blue;
 }
+
 .teams .carousel .card .box{
     display: flex;
     flex-direction: column;
@@ -407,14 +450,17 @@ section .title::after{
     justify-content: center;
     transition: all 0.3s ease;
 }
+
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
 }
+
 .teams .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
 .teams .carousel .card img{
     height: 150px;
     width: 150px;
@@ -423,13 +469,16 @@ section .title::after{
     border: 5px solid blue;
     transition: all 0.3s ease;
 }
+
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
+
 .owl-dots{
     text-align: center;
     margin-top: 20px;
 }
+
 .owl-dot{
     height: 13px;
     width: 13px;
@@ -439,10 +488,12 @@ section .title::after{
     border: 2px solid blue!important;
     transition: all 0.3s ease;
 }
+
 .owl-dot.active{
     width: 35px;
     border-radius: 14px;
 }
+
 .owl-dot.active,
 .owl-dot:hover{
     background: blue!important;
@@ -452,25 +503,31 @@ section .title::after{
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
+
 .contact .contact-content .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .contact .contact-content .left p{
     text-align: justify;
 }
+
 .contact .contact-content .left .icons{
     margin: 10px 0;
 }
+
 .contact .contact-content .row{
     display: flex;
     height: 65px;
     align-items: center;
 }
+
 .contact .contact-content .row .info{
     margin-left: 30px;
 }
+
 .contact .contact-content .row i{
     font-size: 25px;
     color: blue;
@@ -478,18 +535,22 @@ section .title::after{
 .contact .contact-content .info .head{
     font-weight: 500;
 }
+
 .contact .contact-content .info .sub-title{
     color: #333;
 }
+
 .contact .right .fields{
     display: flex;
 }
+
 .contact .right .field,
 .contact .right .fields .field{
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
 }
+
 .contact .right .textarea{
     height: 80px;
     width: 100%;
@@ -599,6 +660,56 @@ footer span a:hover{
 }
 
 
+
+.gmailbtn {
+    display: flex;
+    flex-direction: column;
+}
+
+/* GMAIL BUTTON */
+
+.gmail-button {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.gmail-button:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.gmail-button:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+
+
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
@@ -612,6 +723,7 @@ footer span a:hover{
         padding: 0 50px;
     }
 }
+
 @media (max-width: 947px){
     .menu-btn{
         display: block;
@@ -677,6 +789,12 @@ footer span a:hover{
     }
 }
 
+@media (min-width: 768px) {
+    .gmail-button {
+      padding: 16px 48px;
+    }
+}
+
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
@@ -729,59 +847,6 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-}
-
-.gmailbtn {
-    display: flex;
-    flex-direction: column;
-}
-
-/* GMAIL BUTTON */
-
-.gmail-button {
-  background-color: #0078d0;
-  border: 0;
-  border-radius: 56px;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  outline: 0;
-  padding: 16px 21px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: all .3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.gmail-button:before {
-  background-color: initial;
-  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
-  border-radius: 125px;
-  content: "";
-  height: 50%;
-  left: 4%;
-  opacity: .5;
-  position: absolute;
-  top: 0;
-  transition: all .3s;
-  width: 92%;
-}
-
-.gmail-button:hover {
-  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
-  transform: scale(1.05);
-}
-
-@media (min-width: 768px) {
-  .gmail-button {
-    padding: 16px 48px;
-  }
 }
 
 
